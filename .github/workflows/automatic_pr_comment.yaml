@@ -6,7 +6,7 @@ on:
 
 jobs:
   handle-pr:
-    if: github.repository_owner == 'UofT-DSI'
+    # if: github.repository_owner == 'UofT-DSI'
     runs-on: ubuntu-latest
     steps:
       - name: Handle PR based on source branch
